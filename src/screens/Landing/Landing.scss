@@ -1,0 +1,32 @@
+@import "../../utils/scss";
+
+.landing-container {
+  @include flex_center;
+  width: 100%;
+  flex-direction: column;
+  background-color: $background_secondary;
+  position: fixed;
+  height: 100%;
+}
+h3 {
+  @include account_container;
+  margin-top: 150px;
+  margin-bottom: 0;
+  height: auto;
+  text-align: center;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  background-color: $header_background;
+}
+.account-container {
+  @include account_container;
+  display: flex;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  flex-direction: column;
+  background-color: $background_primary;
+  padding-top: 20px;
+  overflow-y: scroll;
+  margin-bottom: 150px;
+  margin-top: 0px
+}

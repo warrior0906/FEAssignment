@@ -1,0 +1,10 @@
+@import "../../utils/scss";
+
+.users {
+    @include flex_center;
+    border-bottom: 1px solid $border_color; //need check for borderWidth
+  }
+  .name {
+    padding-left: 20px;
+    font-size: 20px;
+  }

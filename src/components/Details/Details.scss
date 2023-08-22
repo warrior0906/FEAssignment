@@ -1,0 +1,20 @@
+@import "../../utils/scss";
+
+.row {
+  @include flex_center;
+  flex-direction: row;
+}
+.key {
+  width: 38%;
+  font-size: $font22;
+  color: $text_secondary;
+  text-align: right;
+}
+.value {
+  display: flex;
+  flex: 1;
+  font-size: $font22;
+  color: $text_primary;
+  text-align: left;
+  margin-left: 10px;
+}

@@ -1,0 +1,28 @@
+@import "../../utils/scss";
+
+.container {
+  display: flex;
+  margin: 40px;
+}
+.Tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 800px; //100%; // need to change
+  padding: 40px;
+  margin-right: 40px;
+  background-color: $background_secondary;
+  border-radius: 20px;
+}
+.Title {
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+.children {
+  width: 100%;
+}
